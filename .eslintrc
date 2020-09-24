@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "standard",
+    "react-app",
+    "airbnb",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "jsx-a11y/no-autofocus": 0,
+    "react/require-default-props": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": ["__REDUX_DEVTOOLS_EXTENSION__", "_isMounted"]
+      }
+    ],
+    "react/no-array-index-key": 0,
+    "max-lines": ["warn", 300],
+    "max-nested-callbacks": ["warn", 2],
+    "max-depth": ["warn", 3]
+  },
+  "plugins": ["prettier"]
+}

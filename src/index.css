@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #333333;
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.rate-box {
+  padding: 30px;
+  display: flex;
+}
+
+.value {
+  color: #fff;
+  font-style: 20px;
+}
+
+.percentage {
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.percentage__low {
+  color: red;
+  font-style: 20px;
+}
+
+.percentage__high {
+  color: green;
+  font-style: 20px;
+}
+
+.percentage__static {
+  color: gray;
 }
